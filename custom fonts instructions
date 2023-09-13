@@ -1,0 +1,16 @@
+1. create assets/fonts folder 
+2. download fonts and extract 
+3. copy and paste .tff file into fonts folder
+4. create react-native.config.js file
+    * put this code into react-native.config.js file and save
+        
+        module.exports = {
+            projects: {
+                ios: {},
+                android: {},
+            },
+            assets: ['./assets/fonts/'],
+        };
+
+5. Now, open cmd in project folder enter
+    npm react-native-assets + enter
